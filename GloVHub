@@ -14,7 +14,7 @@ Section:NewButton("MegaRock", "Gets the glove MegaRock", function()
 		wait(2.5)
 		game:GetService("ReplicatedStorage").Rockmode:FireServer()
 		wait(36250) -- Added 250 seconds so you don't worry about your 10 hours lost without getting badge for an error
-		game:GetService("ReplicatedStorage").DeactivateRockmode:FireServer()
+		print("kk you may have gotten the badge rn")
 	end
 end)
 
@@ -27,3 +27,19 @@ end
 end
 end
 end)
+
+Section:NewButton("Tycoon", "Gets the glove Tycoon", function()
+		game.Players.LocalPlayer.Character.Torso.Anchored = true
+game.Players.LocalPlayer.Character.Head:Destroy()
+game.Players.LocalPlayer.Character["Left Arm"]:Destroy()
+game.Players.LocalPlayer.Character["Left Leg"]:Destroy()
+game.Players.LocalPlayer.Character["Right Arm"]:Destroy()
+game.Players.LocalPlayer.Character["Right Leg"]:Destroy()
+game.Players.LocalPlayer.Character.Torso.Anchored = false
+		wait(0.5)
+		while wait() do
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Arena.Plate.CFrame
+		end
+		wait(625)
+		print("bro did u get the badge?")
+	end)
