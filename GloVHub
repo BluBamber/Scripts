@@ -43,3 +43,22 @@ game.Players.LocalPlayer.Character.Torso.Anchored = false
 		wait(625)
 		print("bro did u get the badge?")
 	end)
+
+Section:NewButton("Get Bob", "Automatically get Bob in SB.", function()
+    if game.Players.LocalPlayer.leaderstats.Slaps.Value >= 4000 then
+	fireclickdetector(game:GetService("Workspace").Lobby.Replica.ClickDetector)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(15,-15,15)
+    wait(0.1)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
+    wait(0.1)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(15,10000,15)
+    wait(0.1)
+    game:GetService"RunService".RenderStepped:Connect(function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
+    end)
+
+    while wait(6) do
+        game:GetService("ReplicatedStorage").Duplicate:FireServer()
+    end
+end
+end)
