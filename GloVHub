@@ -61,6 +61,7 @@ Section:NewButton("Get Bob", "Automatically get Bob in SB.", function()
         game:GetService("ReplicatedStorage").Duplicate:FireServer()
     end
 end
+end)
 
 Section:NewButton("Elude", "Gets the glove Elude", function()
     local teleportFunc = queueonteleport or queue_on_teleport or syn and syn.queue_on_teleport
@@ -82,4 +83,3 @@ end
 
 game:GetService("TeleportService"):Teleport(11828384869)
 	end)
-end)
