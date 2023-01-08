@@ -1,0 +1,175 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Slap Battles | Big W", HidePremium = true, SaveConfig = true, IntroEnabled = false, ConfigFolder = "SBFG"})
+
+OrionLib:MakeNotification({
+	Name = "Rogue Hub = W",
+	Content = "(This hub also is.)",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+local Tab = Window:MakeTab({
+	Name = "OP Stuff",
+	Icon = "rbxassetid://4483345998",
+})
+
+local Section = Tab:AddSection({
+	Name = "Cool Stuff"
+})
+
+Tab:AddButton({
+	Name = "+1 Orbit Glove",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").OrbitThings.glove1test:FireServer()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Give The Slaperinos 😎",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Insta-Phase 10 KS",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").RageEvents.test:FireServer()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Mexico Mode",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").RageEvents.kills40:FireServer()
+      		game.Players.LocalPlayer.Character.Humanoid.Health = 0
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Goku Mode 😱😱",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").InsanityEvents.test113:FireServer()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Phase 500 KS",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").KillstreakEvents.ks500:FireServer()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Phase 500 KS",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").KillstreakEvents.ks500:FireServer()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Phase 420 Ability (💀)",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").KillstreakEvents.ks420ab:FireServer()
+  	end    
+})
