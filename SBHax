@@ -161,13 +161,6 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "Phase 500 KS",
-	Callback = function()
-      		game:GetService("ReplicatedStorage").KillstreakEvents.ks500:FireServer()
-  	end    
-})
-
-Tab:AddButton({
 	Name = "Phase 420 Ability (💀)",
 	Callback = function()
       		game:GetService("ReplicatedStorage").KillstreakEvents.ks420ab:FireServer()
