@@ -26,6 +26,13 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+	Name = "Kill All (Ohio 💀)",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").TimelessEvents.time2200:FireServer()
+  	end    
+})
+
+Tab:AddButton({
 	Name = "Give The Slaperinos 😎",
 	Callback = function()
       		game:GetService("ReplicatedStorage").KillstreakEvents.killed:FireServer()
